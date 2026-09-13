@@ -1,0 +1,83 @@
+/* body{
+    color: blueviolet;
+} */
+
+#titulo {
+    color: red;
+}
+
+p.texto {
+    color: green;
+}
+
+p.especial{
+    color: darkblue;
+}
+
+div p {
+    color: black;
+}
+
+div h2 {
+    color: brown;
+}
+
+div h3 {
+    color: yellow;
+}
+
+/* * {
+    font-size: 24px;
+} */
+
+
+/* 
+esto es un comentario de muchas lineas
+.color {
+
+    color:#000;
+}
+
+.color {
+
+     color:rgb(12, 129, 129);
+}
+*/
+
+.color {
+
+     /* border: 5px black outset; */
+     border-style: solid;
+     border-color: blue;
+     border-radius: 5px;
+     border-width: 1rem;
+}
+
+/* #fondo {
+
+background: beige;
+
+} */
+
+#fondo {
+
+background: rgb(255, 0, 0);
+/* opacity: 0.2; */
+height: 200px;
+background-image: url('imagen/flor.png');
+background-size: 200px 200px;
+background-repeat: repeat-x;
+background-position: left top;
+
+}
+
+.margen {
+    background-color: chocolate;
+    margin: 15px;
+    padding: 30px 25px 5px;
+    border: black;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid red;
+}

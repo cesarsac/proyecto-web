@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+<!--     <style>
+        table, th, td {
+              border: 1px solid black;
+        }
+    </style> -->
+</head>
+<body>
+
+    <style>
+        table{ border-collapse: collapse;}
+        table, th, td {
+              border: 1px solid black;
+              border-color: rgb(7, 49, 128);
+              width: 400px;
+        }
+        th{
+            height: 30px;
+        }
+        td{
+            padding: 5px;
+            padding-top: 2px;
+        }
+        tr:hover{
+            background-color: salmon;
+        }
+    </style>
+    <table>
+     <caption>datos semanales</caption>
+      <thead>
+        <tr>
+         <th>Lugar gasto</th>
+         <th>Día</th>
+         <th>Precio</th>
+        </tr>
+      </thead>
+     <tbody>
+        <tr>
+        <td>Campo de futbol</td>
+        <td rowspan="2">Sabado</td>
+        <td>50</td>
+        </tr>
+            <tr>
+        <td>Campo de futbol</td>
+        
+        <td>50</td>
+        </tr>
+            <tr>
+        <td>Campo de futbol</td>
+        <td>Sabado</td>
+        <td>50</td>
+        </tr>
+     </tbody>
+     <tfoot>
+        <tr>
+           <td colspan="2">suma total</td>
+           <td>150</td>
+                  
+        </tr>
+     </tfoot>
+    </table>   
+
+     <br>
+    <table style="width: 500px;" >
+        <thead>
+        <tr>
+           <th>producto</th>
+           <th>precio</th>
+        </tr>
+        </thead>
+         <tbody>
+            <tr>
+           <td>cuaderno</td>
+           <td>gratis</td>
+         </tr>
+        <tr>
+           <td>computador</td>
+           <td>1200 dolares</td>
+         </tr>
+        <tr>
+           <td>computador de ultima generación</td>
+           <td>16000 dolares</td>
+         </tr>
+         </tbody>
+         <tfoot>
+            <td></td>
+            <td> Total: 17200 dolares</td>
+         </tfoot>
+
+    </table>
+<!-- lista no ordenada -->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+
+    </ul>
+<!-- lista  ordenada -->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>
+            <ol>
+                <li style="list-style-type:  lower-roman;" > sub elmento 1</li>
+                <li style="list-style-type:  lower-roman;"> sub elmento 2</li>
+                <li style="list-style-type:  lower-roman;"> sub elmento 3</li>
+            </ol>
+        </li>
+
+    </ol>
+
+
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input value="cesar"  type="text" id="nombre" name="nombre" placeholder="Carlos"/>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input value="suarez" type="text" id="apellido" name="apellido" placeholder="Perez"/>
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea cols="50" rows="10" id="comentario" placeholder="comentario" name="comentario"> Este es un valor por defecto</textarea>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+        <button type="button"><img src="imagen/alarma-3d.png" width="50" /> button</button>
+     </form>
+    <h1>Heading</h1>        
+    <h2>Heading</h2>
+    <h3>Heading</h3>    
+    <h4>Heading</h4>    
+    <h5>Heading</h5>    
+    <h6>Heading</h6>
+    <p>parrafo</p>
+    <hr>
+    <h2>parrafo</h2>
+    <p>
+        parrafo de <span style="color: blue;"> prueba </span>
+        para referencia  <br>
+    </p>
+    <!-- comentario 
+     aparecer en el explaorador-->
+     <a target="_blank" href="https://www.google.com.co"> Ir a google </a>
+     <img src="imagen/alarma-3d.png" width="150"/>
+     
+</body>
+</html>
